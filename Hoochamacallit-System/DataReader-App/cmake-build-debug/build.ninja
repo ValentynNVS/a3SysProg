@@ -55,6 +55,12 @@ build CMakeFiles/DataReader_App.dir/DR.c.o: C_COMPILER__DataReader_App_unscanned
   OBJECT_DIR = CMakeFiles/DataReader_App.dir
   OBJECT_FILE_DIR = CMakeFiles/DataReader_App.dir
 
+build CMakeFiles/DataReader_App.dir/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/Common/src/MessageQueue.c.o: C_COMPILER__DataReader_App_unscanned_Debug /home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/Common/src/MessageQueue.c || cmake_object_order_depends_target_DataReader_App
+  DEP_FILE = CMakeFiles/DataReader_App.dir/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/Common/src/MessageQueue.c.o.d
+  FLAGS = -g -std=gnu99 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles/DataReader_App.dir
+  OBJECT_FILE_DIR = CMakeFiles/DataReader_App.dir/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/Common/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target DataReader_App
@@ -63,7 +69,7 @@ build CMakeFiles/DataReader_App.dir/DR.c.o: C_COMPILER__DataReader_App_unscanned
 #############################################
 # Link the executable DataReader_App
 
-build DataReader_App: C_EXECUTABLE_LINKER__DataReader_App_Debug CMakeFiles/DataReader_App.dir/DR.c.o
+build DataReader_App: C_EXECUTABLE_LINKER__DataReader_App_Debug CMakeFiles/DataReader_App.dir/DR.c.o CMakeFiles/DataReader_App.dir/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/Common/src/MessageQueue.c.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/DataReader_App.dir
   POST_BUILD = :
