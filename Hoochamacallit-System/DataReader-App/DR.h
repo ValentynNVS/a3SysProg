@@ -10,6 +10,7 @@
 #include <sys/msg.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 // Constants
 #define  kGeneralStringLength  100
@@ -17,8 +18,9 @@
 #define  FAILURE		       1
 
 // Function prototypes
-key_t getMessageQueueId(void);
-
+key_t getMessageQueueId(int seed);
+int messageQueueExists(key_t uniqueToken);
+int createMessageQueue(key_t uniqueToken);
 
 /* The structure of a queue message */
 typedef struct queueMessage //**NOTE: should be in common
