@@ -88,6 +88,7 @@ void updateMasterList(MasterList *master, QueueMessage *msg) {
         }
     }
 
+
     if (master->numberOfMachines < kMaxNumberOfMachines) {
         master->machines[master->numberOfMachines].machineID = msg->machineID;
         master->machines[master->numberOfMachines].lastTimeHeardFrom = currentTime;

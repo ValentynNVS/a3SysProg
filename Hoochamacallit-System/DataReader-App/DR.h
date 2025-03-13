@@ -16,6 +16,7 @@
 #define  kSharedMemorySeed 16535
 #define LOG_FILE "/tmp/dataMonitor.log"
 
+
 // Structures
 typedef struct MachineInfo
 {
