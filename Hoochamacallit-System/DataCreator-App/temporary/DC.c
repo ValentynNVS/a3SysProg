@@ -25,7 +25,7 @@ const char *statusDescriptions[] = {
 #define OFFLINE 6
 
 int main() {
-    key_t uniqueToken = getUniqueToken(kMessageQueueSeed);
+    key_t uniqueToken = getUniqueToken("/home", kMessageQueueSeed);
     int msgid;
 
     // Declare the 'now' variable of type time_t
@@ -73,7 +73,7 @@ int main() {
     while (1) {
         sleep(rand() % (MAX_WAIT - MIN_WAIT + 1) + MIN_WAIT);
 
-        msg.statusCode = rand() % 7;  // Randomly pick a status
+        msg.statusCode = (rand() % 6) + 1;  // Randomly pick a status
         snprintf(msg.statusDescription, kGeneralStringLength, "%s", statusDescriptions[msg.statusCode]);
 
         msgsnd(msgid, &msg, sizeof(msg) - sizeof(long), 0);

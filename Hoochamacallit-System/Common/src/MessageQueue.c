@@ -1,14 +1,12 @@
-//
 // This file contains the necessary functions that allow the client (DC) and server (DR) to
 // establish a connection on a message queue.
-//
+
 #include "../inc/MessageQueue.h"
 
-
 // This function calculates a unique token based on a seed
-key_t getUniqueToken(int seed)
+key_t getUniqueToken(char* path, int seed)
 {
-    key_t uniqueToken = ftok ("/home", seed);
+    key_t uniqueToken = ftok (path, seed);
     if (uniqueToken == -1)
     {
         perror("Error creating unique token: ");
@@ -17,7 +15,7 @@ key_t getUniqueToken(int seed)
     return uniqueToken;
 }
 
-// This function checks whether a message queue exists for the specified token
+// This function checks whether a message queue exists for the specified token (returns -1 if queue doesn't exist)
 int messageQueueExists(key_t uniqueToken)
 {
     int messageQueueID = msgget(uniqueToken, 0);
