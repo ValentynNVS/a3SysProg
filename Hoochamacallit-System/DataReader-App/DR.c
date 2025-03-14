@@ -17,7 +17,7 @@ int main(void)
 
     /* Create shared memory if it doesn't already exist */
     int sharedMemoryID;
-    uniqueToken = getUniqueToken(".",kSharedMemorySeed);
+    uniqueToken = getUniqueToken("/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/DataReader-App/cmake-build-debug/",kSharedMemorySeed);
     if ((sharedMemoryID = sharedMemoryExists(uniqueToken)) == -1)
     {
         sharedMemoryID = createSharedMemory(uniqueToken);
