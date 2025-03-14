@@ -1,0 +1,7 @@
+# ninja log v6
+1	86	1741874110123069407	CMakeFiles/temporary.dir/DC.c.o	5b6ae7d96ae05a0a
+4	136	1741874342562114672	build.ninja	9a48980ef64b9905
+1	75	1741874342606108080	CMakeFiles/temporary.dir/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/Common/src/MessageQueue.c.o	793c6f2df9169319
+75	118	1741874342676097593	temporary	5d367d56b1d7fbf4
+22	290	1741875797357882867	CMakeFiles/temporary.dir/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/Common/src/MessageQueue.c.o	793c6f2df9169319
+290	423	1741875797621847850	temporary	5d367d56b1d7fbf4

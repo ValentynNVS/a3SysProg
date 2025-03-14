@@ -14,6 +14,7 @@
 // Constants
 #define  kMaxNumberOfMachines 10
 #define  kSharedMemorySeed 16535
+#define kServerRegularMessage 1
 #define LOG_FILE "/tmp/dataMonitor.log"
 
 

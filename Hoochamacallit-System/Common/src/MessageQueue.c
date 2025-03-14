@@ -8,7 +8,7 @@
 // This function calculates a unique token based on a seed
 key_t getUniqueToken(int seed)
 {
-    key_t uniqueToken = ftok (".", seed);
+    key_t uniqueToken = ftok ("/home", seed);
     if (uniqueToken == -1)
     {
         perror("Error creating unique token: ");

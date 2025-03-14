@@ -1,0 +1,3 @@
+/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/DataCreator-App/temporary/cmake-build-debug/CMakeFiles/temporary.dir
+/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/DataCreator-App/temporary/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aalmoune1948/Desktop/A3/a3SysProg/Hoochamacallit-System/DataCreator-App/temporary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
