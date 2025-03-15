@@ -1,13 +1,5 @@
-/*
-   FILE          : DX.h
-   PROJECT       : SENG2030 - Assignment 3
-   PROGRAMMER    : Ahmed, Juan, Valentyn, Warren
-   FINAL VERSION : 3/14/2025
-   DESCRIPTION   : This file contains the functions that the corruptor (DX) uses to
-                   function. (i.e. delete machine, delete message queue, log events, etc.)
-*/
+#include "../DX.h"
 
-#include "DX.h"
 
 //Here What I want to achieve is to Record every DX action, Add timestamps to each event for analysis, Ensures logs persist 
 //even after the DX exits and last but not least is that it mostly helps verify if is working without printing it to console (requirements)

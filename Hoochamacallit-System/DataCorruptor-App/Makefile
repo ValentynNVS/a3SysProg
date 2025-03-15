@@ -10,7 +10,7 @@
 
 # FINAL BINARY Target
 ./bin/DataCorruptor : ./obj/DataCorruptor.o 
-	cc ./obj/DataCorruptor.o -o ./bin/Common
+	cc ./obj/DataCorruptor.o -o ./bin/DataCorruptor
 
 # =======================================================
 #                     Dependencies
@@ -21,7 +21,7 @@
 # =======================================================
 # Other targets
 # =======================================================
-all : ./bin/Common
+all : ./bin/DataCorruptor
 
 clean:
 	rm -f ./bin/*

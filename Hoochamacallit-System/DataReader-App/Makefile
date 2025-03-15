@@ -9,8 +9,8 @@
 #
 
 # FINAL BINARY Target
-./bin/DataReader : ./obj/DataReader.o 
-	cc ./obj/DataReader.o -o ./bin/Common
+./bin/DataReader : ./obj/DataReader.o ../Common/obj/MessageQueue.o
+	cc ./obj/DataReader.o ../Common/obj/MessageQueue.o -o ./bin/DataReader
 
 # =======================================================
 #                     Dependencies
@@ -21,7 +21,7 @@
 # =======================================================
 # Other targets
 # =======================================================
-all : ./bin/Common
+all : ./bin/DataReader
 
 clean:
 	rm -f ./bin/*

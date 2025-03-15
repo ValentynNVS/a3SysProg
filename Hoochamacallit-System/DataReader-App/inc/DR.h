@@ -1,11 +1,5 @@
-/*
-   FILE          : DR.h
-   PROJECT       : SENG2030 - Assignment 3
-   PROGRAMMER    : Ahmed, Juan, Valentyn, Warren
-   FINAL VERSION : 3/14/2025
-   DESCRIPTION   : This file contains the necessary libraries, constants, prototypes, and structures that the server (DR) needs
-                   to function. (i.e. receive messages from machines, keep track of active machines, log events, etc.)
-*/
+// This file contains the necessary libraries, constants, prototypes, and structures that the server (DR) needs
+// to function. (i.e. receive messages from machines, keep track of active machines, log events, etc.)
 
 #ifndef DR_H
 #define DR_H
@@ -15,7 +9,7 @@
 #include <unistd.h>
 #include <time.h>
 #include <string.h>
-#include "../Common/inc/MessageQueue.h"
+#include "../../Common/inc/MessageQueue.h"
 
 // Constants
 #define  kMaxNumberOfMachines 10

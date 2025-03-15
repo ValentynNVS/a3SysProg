@@ -9,8 +9,8 @@
 #
 
 # FINAL BINARY Target
-./bin/DataCreator : ./obj/DataCreator.o 
-	cc ./obj/DataCreator.o -o ./bin/DataCreator
+./bin/DataCreator : ./obj/DataCreator.o ../Common/obj/MessageQueue.o
+	cc ./obj/DataCreator.o ../Common/obj/MessageQueue.o -o ./bin/DataCreator
 
 # =======================================================
 #                     Dependencies

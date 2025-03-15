@@ -1,5 +1,11 @@
-// This file contains the necessary libraries, constants, prototypes, and structures that allow the client (DC) and server (DR) to
-// establish a connection on a message queue.
+/*
+   FILE          : MessageQueue.h
+   PROJECT       : SENG2030 - Assignment 3
+   PROGRAMMER    : Ahmed, Juan, Valentyn, Warren
+   FINAL VERSION : 3/14/2025
+   DESCRIPTION   : This file contains the necessary libraries, constants, prototypes, and structures that allow the client (DC) and server (DR) to
+                   establish a connection on a message queue.
+*/
 
 #ifndef MESSAGEQUEUE_H
 #define MESSAGEQUEUE_H

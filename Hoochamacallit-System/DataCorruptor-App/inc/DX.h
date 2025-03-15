@@ -1,12 +1,3 @@
-/*
-   FILE          : DX.h
-   PROJECT       : SENG2030 - Assignment 3
-   PROGRAMMER    : Ahmed, Juan, Valentyn, Warren
-   FINAL VERSION : 3/14/2025
-   DESCRIPTION   : This file contains the necessary libraries, constants, prototypes, and structures that the corruptor (DX) needs
-                   to function. (i.e. delete machine, delete message queue, log events, etc.)
-*/
-
 #ifndef DX_H
 #define DX_H
 
